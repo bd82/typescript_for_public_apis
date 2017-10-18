@@ -1,0 +1,25 @@
+{
+  "name": "typescript_for_public_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "./api.d.ts",
+  "scripts": {
+    "type_check": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bd82/typescript_for_public_apis.git"
+  },
+  "author": "Shahar Soel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bd82/typescript_for_public_apis/issues"
+  },
+  "homepage": "https://github.com/bd82/typescript_for_public_apis#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.44",
+    "typescript": "^2.5.3"
+  }
+}
