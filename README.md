@@ -57,7 +57,7 @@ The basic premise is quite simple:
  - We are using a better syntax than JSDocs to define our public APIs.
  
 **Cons**
- - Unknown how to apply this pattern to classes yet (is it even possible?).
  - Integrating TypeScript as a "pure" type checker may require some minor modifications/fixes
    as with the integration of any linter...
+ - The type checking of JS files is [somewhat limited](https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files) relative to that done for TS files.
     

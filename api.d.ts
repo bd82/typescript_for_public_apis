@@ -1,3 +1,4 @@
+// API exported by functional.js
 export interface IFunctional {
     add: (a: number, b: number) => number
     subtract: (a: number, b: number) => number
@@ -8,21 +9,20 @@ export interface IFunctional {
 // must match the runtime APIs exposed in index.js
 export const functional: IFunctional;
 
+
+// API exported by classes.js
 export interface IClasses {
     Person: new(name: string, age: number) => IPerson
+    School: new() => ISchool
 }
 
-
 export interface IPerson {
-    new(name: string, age: number)
-
     getName(): string
 
     haveBirthDay(isLeap: boolean): void
 }
 
 export interface ISchool {
-    new ()
     signup(newStudent: IPerson): void
 }
 
