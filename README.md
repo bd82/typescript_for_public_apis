@@ -6,7 +6,7 @@
 
 ## Background
 In the article [Get the advantages of TypeScript without transpiling](http://seg.phault.net/blog/2017/10/typescript-without-transpiling/)
-@segphault described how TypeScript and JSDocs annotations can be combined to provide type checking
+[@segphault](https://github.com/segphault) described how TypeScript and JSDocs annotations can be combined to provide type checking
 capabilities for vanilla JavaScript projects.
 
 This repo takes this concept one step farther and demonstrates how to use TypeScript
