@@ -19,7 +19,7 @@ for packages independently of the "internal" development of these packages.
 
 This approach however, has three main disadvantages
 
-1. Independent life cycle of packages and their definitions may lead to quality issues.
+1. **Independent life cycle** of packages and their definitions may lead to quality issues.
 2. Definitions developed by end users instead of package authors may suffer from quality issues.
 3. There exists **no validation that the implementation of the package aligns with the definition**.
     - For example: A function may be added in the implementation without a corresponding change in the definitions.
