@@ -61,3 +61,21 @@ The basic premise is quite simple:
    as with the integration of any linter...
  - The type checking of JS files is [somewhat limited](https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files) relative to that done for TS files.
     
+    
+### Playing around with this example
+
+First run:
+> npm install
+
+Secondly run:
+> npm run type_check
+
+And verify no errors are detected.
+
+Thirdly:
+Modify the definitions and/or the implementation in ways that should break their alignment.
+and re-run 
+> npm run type_check
+
+To inspect the error messages.
+
