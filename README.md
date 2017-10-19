@@ -28,9 +28,9 @@ This approach however, has three main disadvantages
 ### Could not all these concerns be resolved if package authors develop the definitions as part of their packages?
 Yes and No.
 
-It is possible to include definitions as part of a package using the [@types property](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html)
-This will indeed resolve the first two concerns, The problem is that to resolve the 3rd concern, that of
-**validating the definitions match the implementation**. The whole package would have had to be developed in TypeScript.
+It is possible to include definitions as part of a package using the [@types property](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html).
+This will indeed resolve the first two concerns, The problem however, is that to resolve the 3rd concern, that of
+**validating the definitions match the implementation**. The **whole package** would have had to be developed in TypeScript.
 Which may not be desired for various (and legitimate) reasons.
 
 Luckily a new alternative is available since TypeScript 2.3
