@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/bd82/typescript_for_public_apis.svg?branch=master)](https://travis-ci.org/bd82/typescript_for_public_apis)
 
-# Validated TypeScript public APIs in vanilla JavaScript
+# Using TypeScript for Public APIs in vanila JS projects.
 
 **TLDR**: skip to the [Suggested Pattern](#suggested_pattern)
 
